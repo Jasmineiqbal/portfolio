@@ -1,0 +1,32 @@
+.topcontainer{
+    background: url("../img7.png");
+    height: 100vh;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    box-shadow: inset 0 0 0 2000px rgba(0,0,0,0.5);
+}
+
+@media (max-width: 576px) {
+    .topcontainer {
+        height: 80vh; /* Adjust height for smaller screens if needed */
+        box-shadow: inset 0 0 0 1500px rgba(0, 0, 0, 0.5); /* Optional: adjust shadow */
+    }
+}
+
+@media (min-width: 577px) and (max-width: 992px) {
+    .topcontainer {
+        height: 90vh; /* Adjust height for medium screens if needed */
+        box-shadow: inset 0 0 0 1800px rgba(0, 0, 0, 0.5); /* Optional: adjust shadow */
+    }
+}
+
+
+
+/* Larger desktops */
+@media (min-width: 993px) {
+    .topcontainer {
+        height: 100vh; /* Maintain full height for larger screens */
+        box-shadow: inset 0 0 0 2000px rgba(0, 0, 0, 0.5); /* Default shadow */
+    }
+}

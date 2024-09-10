@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.projectcontainer{
+    display: flex;
+    flex-direction: column;
+    color: white;
+    justify-content: center;
+    margin: 0;
+    align-items: center;
+    padding: 50px;
+    background-color: black;
+}
+.projectcontainer > h1{
+    color: #f64c08;
+}
+
+
+.projectcontainer__projects{
+    display: flex;
+    width: 60vw;
+    margin-top: 50px;
+    flex-wrap: wrap;
+}
+
+
+/* Media queries for responsiveness */
+
+/* For tablets and small laptops */
+@media (max-width: 768px) {
+    .projectcontainer {
+        padding: 40px; /* Reduce padding */
+    }
+
+    .projectcontainer__projects {
+        width: 80vw; /* Increase width to utilize more space */
+    }
+}
+
+/* For mobile devices */
+@media (max-width: 480px) {
+    .projectcontainer {
+        padding: 30px; /* Further reduce padding */
+    }
+
+    .projectcontainer__projects {
+        width: 100vw; /* Full width on mobile screens */
+        flex-direction: column; /* Stack project items vertically */
+    }
+}

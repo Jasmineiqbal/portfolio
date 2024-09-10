@@ -1,0 +1,145 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&family=Crimson+Text:ital,wght@0,400;0,600;0,700;1,400;1,600;1,700&family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
+
+.topcontent{
+    color: white;
+    position: relative;
+    
+}
+
+.topcontent__container{
+    position: absolute;
+    top: 300px;
+    right: 150px;
+}
+.topcontent__container > h1  > span {
+    color: #f64c08;
+
+}
+.topcontent__container > h3{
+    letter-spacing: 1px;
+    text-align: left;
+    padding-left: 2px;
+    padding-top: 20px;
+}
+.topcontent__container > a > button{
+    margin-top: 30px;
+    text-align: left;
+    margin-left: 5px;
+    border: none;
+    border-radius: 2px;
+    outline: none;
+}
+
+.topcontent__container > h1{
+    font-size: 50px;
+    font-family: "montserrat",sans-serif;
+}
+
+.topcontent__downloadbutton{
+ color: white;
+ background-color: #f64c08;
+ font-size: 14px;
+ padding: 10px 30px;
+ font-family:"montserrat",sans-serif ;
+ font-weight: 300;
+ cursor: pointer;
+ margin-right: 20px;
+}
+.topcontent__downloadbutton:hover{
+    color: #f64c08;
+    background-color: white;
+    font-weight: 600px;
+}
+.topcontent__workdbutton{
+    color: white;
+    border: 1px solid white !important;
+    background-color: transparent;
+    font-size: 14px;
+    padding: 9px 47px;
+    font-family: "montserrat",sans-serif ;
+    font-weight: 300;
+    cursor: pointer;
+
+}
+
+
+.topcontent__workdbutton:hover{
+    color: black;
+    background-color: white;
+    font-weight: 600px;
+}
+
+
+/* Mobile devices (small screens) */
+@media (max-width: 576px) {
+    .topcontent__container {
+        top: 10%;
+        left: 5%;
+        right: 5%;
+    }
+
+    .topcontent__container > h1 {
+        font-size: 1.8rem;
+    }
+
+    .topcontent__container > h3 {
+        font-size: 1rem;
+    }
+
+    .topcontent__downloadbutton,
+    .topcontent__workdbutton {
+        font-size: 0.8rem;
+        padding: 8px 15px;
+    }
+}
+
+/* Tablets and small desktops */
+@media (min-width: 577px) and (max-width: 992px) {
+    .topcontent__container {
+        top: 15%;
+        left: 10%;
+        right: 10%;
+    }
+
+    .topcontent__container > h1 {
+        font-size: 2rem;
+    }
+
+    .topcontent__container > h3 {
+        font-size: 1.1rem;
+    }
+
+    .topcontent__downloadbutton,
+    .topcontent__workdbutton {
+        font-size: 0.85rem;
+        padding: 9px 20px;
+    }
+}
+
+/*Larger desktops
+@media (min-width: 993px) {
+    .topcontent__container {
+        top: 20%;
+        left: 15%;
+        right: 15%;
+    }
+
+    .topcontent__container > h1 {
+        font-size: 2.5rem;
+    }
+
+    .topcontent__container > h3 {
+        font-size: 1.2rem;
+    }
+
+    .topcontent__downloadbutton,
+    .topcontent__workdbutton {
+        font-size: 0.9rem;
+        padding: 10px 30px;
+    }
+}*/
+
+
+
+
+
